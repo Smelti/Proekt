@@ -1,0 +1,161 @@
+.header {
+    background: url("../images/banner-bg-tablet.jpg") no-repeat center center #000000;
+    background-size:cover;
+}
+.menu {
+    padding-left: 50px;
+    
+}
+.burger_menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 25%;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    z-index: 2;
+    padding-top: 50px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2); 
+}
+.navigation_list_items {
+  margin: 25%;
+  display:flex;
+  justify-content: center;
+  font-size: 1.5vw;
+}
+.navigation_list_items:after {
+    display: none;
+}
+.navigation_list_items:hover {
+    color: #b59f5b
+}
+.navigation_list {
+    flex-direction: column;
+}
+.burger_menu__active {
+    display: block;
+}
+.navigation_list_items {
+    margin: 20%;
+    display:flex;
+    justify-content: center; 
+}
+
+.close_menu__burger {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+    display: block;
+}
+
+.burger_place {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.burger {
+    top:20px;
+    display: block;
+    position: fixed;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 130px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.burger span {
+    width: 20px;
+    height: 3px;
+    background: #d3c59d;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.burger span:nth-child(1) {
+    transform: translatey(-8px);
+  }
+
+.burger span:nth-child(3) {
+    transform: translatey(8px);
+  }
+.welcome_title {
+    font-size: 40px;
+    line-height: 55px;
+    width: 680px;
+}
+
+/*------------------trend----------------*/
+.wrapper {
+    width:100vw;
+}
+.box_trend {
+    position: relative;
+    z-index: -1;
+}
+.trend_news {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page {
+    margin: 0 auto;
+    justify-content: flex-start;
+    padding: 0 15px;
+}
+.news_feed {
+    width: 50vw;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+.card_news {
+    flex-direction: column;
+    width: 50vw;
+}
+
+.side_type {
+    margin-left: 10px;
+}
+
+
+.block_information {
+    margin: 0;
+    padding-right: 50px;
+
+}
+.block_news {
+    margin: 0;
+    min-width: 100%;
+}
+.mark_underline:nth-child(n+1) {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.description {
+    width: 100%;
+}
+
+.all_products {
+    flex-wrap: wrap;
+    gap:100px;
+    padding-left: 100px;
+    justify-content: unset;
+    width: 100vw;
+}
+.box_products {
+    min-width: 290px;
+}
+.navigation_theme_items {
+    z-index: -1;
+}
+
+.social {
+    width: 95vw;
+}

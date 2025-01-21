@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MQ diploma</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/tablet-style.css" media="(min-width: 641px) and (max-width: 1199px)">
+  <link rel="stylesheet" href="css/mobile-style.css" media="(max-width: 640px)">
+  <link rel="stylesheet" href="css/popup.css">
+
+</head>
+<body>
+    
+
+<div class="popup" id="popupWindow">
+  <button class="close" id="close_btn">&#10006</button>
+  <div class="form_popup">
+    <div class="title_popup"> Ваш Фидбек </div>
+
+    <form action="#" class="popup_info">
+      <div class="day">
+        <p>Как часто вы заходите на сайт?</p>
+        <select class="field_select">
+          <option value="often">Почти каждый день</option>
+          <option value="daily">Раз в несколько дней</option>
+          <option value="weekly">
+            Раз в несколько недель
+          </option>
+          <option value="annually">
+            Несколько раз в год
+          </option>
+        </select>
+
+        <div class="sub_title">
+          <p>Вы подписаны на нашу рассылку?</p>
+
+          <div class="sub_title">
+            <label class="radio_label">
+              <input type="radio" name="subscription" class="radio_sub">
+              Да
+            </label>
+            <label class="radio_label">
+              <input type="radio" name="subscription" class="radio_sub">
+              Нет
+            </label>
+          </div>
+
+        </div>
+
+        <div class="sub_title">
+          <p>Расскажите, какой контент вы хотели бы видеть на нашем сайте?</p>
+          <textarea cols="30" rows="10" placeholder="Может, больше рецептов?"></textarea>
+        </div>
+
+        <button class='send' id="send_fd">Отправить</button>
+
+      </div>
+    </form>
+  </div>
+</div>
+</body>
