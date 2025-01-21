@@ -103,12 +103,14 @@
 /*------------------trend-----------------------*/
 
 .trend_news {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
+
 .page {
   display: block;
-  width: 100%;
-  margin: 0;
+  width: 100vw;
   box-sizing: border-box;
 }
 .box_trend {
@@ -120,15 +122,19 @@
   height: 340px;
 }
 .news_feed {
-  margin-left: 25px;
+  width: 100vw;
+  margin-left: 2%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .card_news {
   flex-direction: column;
 }
 .block_information {
   margin: 0;
-  padding-right: 50px;
-  width: 50%;
+  width: 100%;
 }
 .block_news {
   margin: 0;
